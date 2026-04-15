@@ -63,4 +63,6 @@ root@ip-172-31-21-50:~# /bin/sh Dynatrace-OneAgent-Linux-x86-1.335.46.20260413-1
 09:23:26 Dynatrace OneAgent has successfully connected to Dynatrace Cluster Node. You are all set. The Dynatrace OneAgent is fully operational.
 root@ip-172-31-21-50:~# 
 
-
+Step 12:
+       To verfiy one agent is running or not
+        sudo systemctl status onesgent
