@@ -9,3 +9,58 @@ Step 3:
 
 Step 4:
       Now you can click install button and it will show One Agent install steps
+
+Step 5:
+     Again chose your OS type
+
+Step 6:
+     Chose Archeture type of your application OR infrastructure
+
+Step 7:
+     Chose monitoring mode Fullstack, Insfrastructure and Discovery
+
+Step 8:
+      Now click the Generate token button it will create token to install One Agent
+
+Step 9:
+     Copy the link and paste where you need to install the one agent it will download the one agent
+
+Step 10:
+      Verify signature the of one agent
+
+Step 11:
+      Install OneAgent as the privileged user
+result will show be like
+
+CMS Verification successful
+root@ip-172-31-21-50:~# /bin/sh Dynatrace-OneAgent-Linux-x86-1.335.46.20260413-124745.sh --set-monitoring-mode=fullstack --set-app-log-content-access=true
+09:22:44 Checking root privileges...
+09:22:44 Process real user: root, real ID: 0
+09:22:44 Process effective user: root, effective ID: 0
+09:22:44 Process root access: true
+09:22:44 Logging to /var/log/dynatrace/oneagent/installer/installation_1003.log
+09:22:44 Installation started, version 1.335.46.20260413-124745, build date: 13.04.2026, PID 1003.
+09:22:44 Detected platform: LINUX arch: X86_64
+09:22:44 Checking /opt/dynatrace/oneagent for prohibited mount flags
+09:22:44 Checking free space in /opt/dynatrace/oneagent
+09:22:44 Extracting...
+09:22:45 Unpacking. This may take a while...
+09:23:03 Unpacking complete.
+09:23:03 Checking if an operating system is supported...
+09:23:03 The operating system is supported, continuing installation.
+09:23:03 Moving new binaries into lib folders...
+09:23:04 User 'dtuser' added successfully.
+09:23:06 Non-privileged mode is enabled.
+09:23:06 Checking free space in /lib/x86_64-linux-gnu
+09:23:06 Verifying auto-injection compatibility...
+09:23:06 Auto-injection compatibility check result: OK
+09:23:06 Refreshing dynamic linker runtime bindings using ldconfig
+09:23:06 Disabling Apport service
+09:23:06 Updating /proc/sys/kernel/core_pattern with oneagentdumpproc
+09:23:22 Starting agents...
+09:23:22 oneagent service started
+09:23:22 Checking if agent is connected to the server...
+09:23:26 Dynatrace OneAgent has successfully connected to Dynatrace Cluster Node. You are all set. The Dynatrace OneAgent is fully operational.
+root@ip-172-31-21-50:~# 
+
+
