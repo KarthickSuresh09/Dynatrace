@@ -1,8 +1,8 @@
 Step 1: Create a namespace for mointoring tool
 
-           `
+           
            kubectl create namespace dynatrace
-           `
+           
            
 Step 2: Install helm package manager 
         ```
